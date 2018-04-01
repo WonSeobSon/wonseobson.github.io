@@ -35,6 +35,30 @@ title: Sandisk Secure Digital Card
       <li>5.1.13. 저작권 보호 명령</li>
      </ul>
     </li>
+    <ul>
+     <li>5.2. SPI 명령어 집합
+      <ul>
+       <li>5.2.1. 명령어 형식</li>
+       <li>5.2.2. 명령어 클래스</li>
+       <li>5.2.3. 응답</li>
+       <li>5.2.4. 데이터 토큰</li>
+       <li>5.2.5. 데이터 오류 토큰</li>
+       <li>5.2.6. Clearing Status Bits</li>
+      </ul>
+     </li>
+     <li>5.3. 카드 레지스터</li>
+     <li>5.4. SPI 버스 타이밍 다이아그램
+      <ul>
+       <li>5.4.1. 명령/응답</li>
+       <li>5.4.2. 데이터 읽기</li>
+       <li>5.4.3. 데이터 쓰기</li>
+       <li>5.4.4. 타이밍 값</li>
+      </ul>
+     </li>
+     <li>5.5. SPI 전기 인터페이(Electrical Interface)</li>
+     <li>5.6. SPI 버스 작동 조건</li>
+     <li>5.7. 버스 타이밍</li>
+    </ul>
   </ul>
  </li>
  <li>부록 A. 애플리케이션 메모</li>
