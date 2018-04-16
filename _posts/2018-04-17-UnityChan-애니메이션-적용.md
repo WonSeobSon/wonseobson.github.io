@@ -5,7 +5,13 @@ title: UnityChan 애니메이션 적용
 
 UnityChan 애니메이션 적용
 
+step 1. UnityChan에게 Animator Component를 추가하고 Controller에 UnityChanLocomotions을 적용합니다.
 
+먼저 UnityChan에서 Add Componet를 누른후 Animator를 찾아 등록한 후 아래의 그럼처럼 UnityChanLocomotions을 Controller에 드래그앤드랍 합니다.
+
+  ![ApplyAnimator](https://drive.google.com/file/d/1BM7TS03m52DcgmuDCRpCHGpCy-dGjeBc/view?usp=sharing)
+
+step 2. 아래의 스크립트를 작성하여 UintyChan에게 걸어줍니다.
 
 ```C#
 using System.Collections;
@@ -18,10 +24,10 @@ public class PlayerMove : MonoBehaviour
     
     Animator animator;
 
-	void Start () 
+    void Start () 
     {		
         animator = GetComponent<Animator>();
-	}
+    }
 	
     void Update()
     {
@@ -34,3 +40,5 @@ public class PlayerMove : MonoBehaviour
     }
 }
 ```
+
+그 후 실행하면 화살표 위,아래에 따라 애니매이션이 작동합니다.
